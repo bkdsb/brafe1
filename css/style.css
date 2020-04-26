@@ -168,3 +168,32 @@ a.menu-logo {
   font-size: 2.25em;
   margin-bottom: 20px;
 }
+
+.produtos-item h2::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: currentColor;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 5px solid #e7e4d8;
+  box-shadow: 0 0 0 5px currentColor;
+}
+
+h2.produtos-paulista::before {
+ color: #492901;
+}
+
+h2.produtos-carioca::before {
+  color: #c17139;
+ }
+ 
+h2.produtos-mineiro::before {
+  color: #d7a54d;
+ }
+
+.produtos-item p {
+  font-size: 0.875em;
+  line-height: 1.4em;
+}
