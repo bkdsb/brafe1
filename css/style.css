@@ -328,6 +328,26 @@ margin: 0 10px;
   padding: 10px 20px;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+.locais {
+  max-width: 7200px;
+}
+.locais-item > div, .locais-item img {
+  width: 340px;
+} 
+  }
+
+  @media (max-width: 739px) {
+    .locais {
+      max-width: 300px;
+    }
+    .locais-item > div, .locais-item img {
+      width: 300px;
+      margin: 0px;
+    }
+  }
+
+
 /* Newsletter */
 
 .assine {
