@@ -129,10 +129,16 @@ a.menu-logo {
 }
 
 .sobre > p {
- font-size: 1.25em;
+ font-size: 1.125em;
  line-height: 1.4em;
  font-style: italic;
  text-align: center;
  margin: 20px auto;
  max-width: 460px;
+}
+
+/* Produtos */
+
+.produtos {
+  background: #e7e4d8;
 }
