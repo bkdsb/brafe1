@@ -63,6 +63,13 @@ a.menu-logo {
 }
 
 @media only screen and (max-width: 739px) {
+.menu {
+  text-align: center;
+}
+a.menu-logo {
+  float: none;
+  margin: 0 auto;
+}
 .menu-nav {
   float: none;
   clear: both;
@@ -415,6 +422,24 @@ margin: 0 10px;
   cursor: pointer;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+.assine-container {
+  max-width: 720px;
+}
+.assine-info, .assine form, .assine input {
+  width: 340px;
+}
+ }
+  
+@media (max-width: 739px) {
+.assine-container {
+  max-width: 300px;
+}
+.assine-info, .assine form, .assine input {
+  width: 300px;
+  margin: 10px 0 0 0;
+}
+
 /* Footer */
 
 .footer {
@@ -444,5 +469,19 @@ margin: 0 10px;
   float: right;
   margin: 0 10px;
   display: block;
+}
+
+@media (max-width: 739px) {
+  .footer-container {
+    max-width: 300px;
+  }
+  .footer p {
+    float: none;
+    margin: 0px;
+  }
+  .footer img {
+    float: none;
+    margin: 20px 0;
+  }
 }
 
